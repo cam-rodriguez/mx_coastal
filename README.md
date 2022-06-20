@@ -6,7 +6,7 @@ _Analysis by Cam Rodriguez, for Dr. Michelle Stuhlmacher's GEO 442 Earth Observa
 
 <br> The analysis itself is built out of [Google Earth Engine](https://earthengine.google.com/), a cloud-based remote sensing tool that utilizes Javascript to create web-based viz. In order to access the code in the program, an Earth Engine account is required. (An account is not required to access the web app, but it is required to run the code.) The code is also within this repo for easy access!
 
-Code link: https://code.earthengine.google.com/29b96abf5a7fa0d3fd76ecedc4a3a605 
+Code link: [https://code.earthengine.google.com/29b96abf5a7fa0d3fd76ecedc4a3a605](https://code.earthengine.google.com/83007ef4c6017b682263a5ab2a288f4e) 
 Web app: https://cam-rodriguez.users.earthengine.app/view/mexicos-coastal-cities 
 ---
 
