@@ -4,7 +4,7 @@ _Analysis by Cam Rodriguez, for Dr. Michelle Stuhlmacher's GEO 442 Earth Observa
 
 ![the ui for the web app, which depicts a list of years and cities on the left hand side with a white background and an interactive satellite map on the right hand side](https://raw.githubusercontent.com/cam-rodriguez/mx_coastal/main/photos/Screen%20Shot%202022-06-14%20at%2011.51.39%20PM.png)
 
-<br> The analysis itself is built out of [Google Earth Engine](https://earthengine.google.com/), a cloud-based remote sensing tool that utilizes Javascript to create web-based viz. In order to access the code in the program, an Earth Engine account is required. (An account is not required to access the web app.) The code is also within this repo for easy access!
+<br> The analysis itself is built out of [Google Earth Engine](https://earthengine.google.com/), a cloud-based remote sensing tool that utilizes Javascript to create web-based viz. In order to access the code in the program, an Earth Engine account is required. (An account is not required to access the web app, but it is required to run the code.) The code is also within this repo for easy access!
 
 Code link: https://code.earthengine.google.com/29b96abf5a7fa0d3fd76ecedc4a3a605 
 Web app: https://cam-rodriguez.users.earthengine.app/view/mexicos-coastal-cities 
@@ -64,5 +64,15 @@ In addition to these two strategies, tightening the geometric boundaries around 
 *Figure 4. The geometric bounds for Tulum (left) and Veracruz (right) highlight two very different area types, one highly vegetated (Tulum) and one that has been historically developed (Veracruz). Adjusting the bounds of both regions around existing developments could help more accurately capture the proportion of built to non-built land in a highly-vegetated region like Tulum, and adjusting the bounds to better highlight cities more distinctly can avoid over-counting land use change in areas like Veracruz.*
 
 That said, tourism within a city affects far more than just that city, and funds don’t stop at city or municipal boundaries. Better gauging the political boundaries of cities, as well as metropolitan areas, can, in concert with a stronger and well-trained classifier, create more accurate results to track change at a high level. 
+
+## Significance
+Ultimately, this study and research is just a step in a direction of understanding how the rate of development in different coastal tourism-heavy areas varies, which can lend insight into what kinds of economic and environmental drains may take place as a result. Some areas, like Playa Del Carmen, changed at a rapid rate relative to the other study areas, highlighting candidates for future, intensive study. While this tool does, on its face, have the ability to quantitatively assess the amount of pixel area change as well as, by extension, the rate of change of built-up land, it’s better served as a preliminary way to gauge areas of concern or interest, with further investigations diving deeper into individual cities and a wider array of metrics.
+
+## Citations
+- Graciano, Juan Carlos, Manuel Ángeles, and Alba E. Gámez. “A Critical Geography Approach to Land and Water Use in the Tourism Economy in Los Cabos, Baja California Sur, Mexico.” _Journal of Land Use Science_ 15, no. 2-3 (2019): 439–56. https://doi.org/10.1080/1747423x.2019.1699613. 
+- Murray, Grant. “Constructing Paradise: The Impacts of Big Tourism in the Mexican Coastal Zone.” _Coastal Management_ 35, no. 2-3 (2007): 339–55. https://doi.org/10.1080/08920750601169600.
+- Ortiz-Lozano, L., A. Granados-Barba, V. Solís-Weiss, and M.A. García-Salgado. “Environmental Evaluation and Development Problems of the Mexican Coastal Zone.” _Ocean & Coastal Management_ 48, no. 2 (2005): 161–76. https://doi.org/10.1016/j.ocecoaman.2005.03.001. 
+- USGS. “MCD12Q1.006 Modis Land Cover Type Yearly Global 500M  |  Earth Engine Data Catalog  |  Google Developers.” Google. Google. Accessed May 14, 2022. https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD12Q1?hl=en#citations.
+- –– “Landsat 7.” USGS. Accessed June 2, 2022. https://www.usgs.gov/landsat-missions/landsat-7
 
 
